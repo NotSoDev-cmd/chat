@@ -1,2 +1,18 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*all filter=lfs diff=lfs merge=lfs -text
+test.py filter=lfs diff=lfs merge=lfs -text
+think.py filter=lfs diff=lfs merge=lfs -text
+ai.py filter=lfs diff=lfs merge=lfs -text
+model_train.py filter=lfs diff=lfs merge=lfs -text
+preprocess.py filter=lfs diff=lfs merge=lfs -text
+segregation.py filter=lfs diff=lfs merge=lfs -text
+dataset.csv filter=lfs diff=lfs merge=lfs -text
+train_preprocessed.csv filter=lfs diff=lfs merge=lfs -text
+val_preprocessed.csv filter=lfs diff=lfs merge=lfs -text
+chat/** filter=lfs diff=lfs merge=lfs -text
+chat/**/* filter=lfs diff=lfs merge=lfs -text
+myDir/**/8 filter=lfs diff=lfs merge=lfs -text
+myDir/**/* filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.safetensors* filter=lfs diff=lfs merge=lfs -text
